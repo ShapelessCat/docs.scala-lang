@@ -1,8 +1,11 @@
 ---
 layout: sip
 number: 37
-permalink: /sips/:title.html
-redirect_from: /sips/pending/interpolation-quote-escape.html
+permalink: /sips/:number.html
+redirect_from:
+  - /sips/:number
+  - /sips/:title.html
+  - /sips/pending/interpolation-quote-escape.html
 stage: completed
 status: shipped
 title: Quote escapes for interpolations

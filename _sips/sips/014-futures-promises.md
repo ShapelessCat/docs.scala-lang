@@ -1,8 +1,11 @@
 ---
 layout: sip
 number: 14
-permalink: /sips/:title.html
-redirect_from: /sips/pending/futures-promises.html
+permalink: /sips/:number.html
+redirect_from:
+  - /sips/:number
+  - /sips/:title.html
+  - /sips/pending/futures-promises.html
 stage: completed
 status: shipped
 title: Futures and Promises

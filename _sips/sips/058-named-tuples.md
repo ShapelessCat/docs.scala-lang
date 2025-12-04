@@ -1,7 +1,10 @@
 ---
 layout: sip
 number: 58
-permalink: /sips/named-tuples.html
+permalink: /sips/:number.html
+redirect_from:
+  - /sips/:number
+  - /sips/named-tuples.html
 presip-thread: https://contributors.scala-lang.org/t/pre-sip-named-tuples/6403/164
 stage: completed
 status: shipped

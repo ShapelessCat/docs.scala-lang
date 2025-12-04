@@ -1,7 +1,10 @@
 ---
 layout: sip
 number: 64
-permalink: /sips/:title.html
+permalink: /sips/:number.html
+redirect_from:
+  - /sips/:number
+  - /sips/:title.html
 presip-thread: https://contributors.scala-lang.org/t/pre-sip-improve-syntax-for-context-bounds-and-givens/6576/97
 stage: completed
 status: shipped
