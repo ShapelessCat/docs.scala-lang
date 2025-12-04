@@ -2,8 +2,11 @@
 kind: SID
 layout: sip
 number: 4
-permalink: /sips/:title.html
-redirect_from: /sips/pending/early-member-definitions.html
+permalink: /sips/:number.html
+redirect_from:
+  - /sips/:number
+  - /sips/:title.html
+  - /sips/pending/early-member-definitions.html
 stage: completed
 status: shipped
 title: Early Member Definitions

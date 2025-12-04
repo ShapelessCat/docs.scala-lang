@@ -2,8 +2,11 @@
 kind: SID
 layout: sip
 number: 9
-permalink: /sips/:title.html
-redirect_from: /sips/pending/scala-specialization.html
+permalink: /sips/:number.html
+redirect_from:
+  - /sips/:number
+  - /sips/:title.html
+  - /sips/pending/scala-specialization.html
 stage: completed
 status: shipped
 title: Scala Specialization

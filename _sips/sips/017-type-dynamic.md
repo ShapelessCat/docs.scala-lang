@@ -1,8 +1,11 @@
 ---
 layout: sip
 number: 17
-permalink: /sips/:title.html
-redirect_from: /sips/pending/type-dynamic.html
+permalink: /sips/:number.html
+redirect_from:
+  - /sips/:number
+  - /sips/:title.html
+  - /sips/pending/type-dynamic.html
 stage: completed
 status: shipped
 title: Type Dynamic
