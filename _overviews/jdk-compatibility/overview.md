@@ -103,6 +103,8 @@ JDK 8 users typically use the Oracle JDK or some flavor of OpenJDK.
 
 OpenJDK comes in various flavors, offered by different providers. We typically build and test Scala using [Temurin](https://adoptium.net) or [Zulu](https://www.azul.com/downloads/), but the differences are unlikely to matter to most users.
 
+GraalVM includes an advanced JIT compiler that performs well on Scala benchmarks. For example, the Scala 2.13 compiler runs about 10% faster (Java 25). GraalVM is available in two editions: GraalVM Community Edition (GPLv2 + Classpath Exception) and Oracle GraalVM (GraalVM Free Terms & Conditions, free to use also commercially).
+
 ## JDK 11 compatibility notes
 
 The Scala test suite and Scala community build are green on JDK 11.
